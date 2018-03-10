@@ -11,3 +11,8 @@ navbar-links:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
