@@ -1,6 +1,6 @@
-# Datasets
+| [Home](README.md) | [Datasets](DATASETS.md) | [Workshop](WORKSHOP.md) |
 
-| [Home](README.md) | [Datasets](DATASETS.md) |
+# Datasets
 
 ## Part 1: Lesion Segmentation
 
