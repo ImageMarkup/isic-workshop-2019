@@ -59,8 +59,8 @@
                                     <p>Skin is the largest organ of the human body, and is the first area of assessment performed by any clinical staff when a patient is seen, as it delivers numerous insights into a patient’s underlying health. For example, cardiac function, liver function, immune function, and physical injuries can be assessed by examining the skin. In addition, dermatologic complaints are also among the most prevalent in primary care [1].  Images of the skin are the most easily captured form of medical image in healthcare, and the domain shares qualities to other standard computer vision datasets, serving as a natural bridge between standard computer vision tasks and medical applications. </p>
                                     
                                     <p>This workshop will serve as a venue to facilitate advancements and knowledge dissemination in the field of skin image analysis, as well as host a melanoma detection challenge, raising awareness and interest for these socially valuable tasks. Invited speakers include (confirmed) major influencers in computer vision and skin imaging, top ranked participants of the hosted challenge, and accepted papers on skin image analysis.</p> 
-									<p>[1] Lowell BA, et al. “Dermatology in primary care: Prevalence and patient disposition” In: Journal of the American Academy of Dermatology (JAAD), vol. 45, no. 2. 2001. 
-
+                                    
+                                    <p> [1] Lowell BA, et al. “Dermatology in primary care: Prevalence and patient disposition” In: Journal of the American Academy of Dermatology (JAAD), vol. 45, no. 2. 2001.</p>
 </p>
 								</div>
 							</section>
@@ -71,12 +71,40 @@
 									<h3>Invited Speakers</h3>
                                     <p>This workshop will feature several prominent names in the field of skin image analysis, including:</p>
                                     
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td width="30%"><b>Art Papier</b></td>
+                                                    <td width="80%">CEO of Visual Dx.</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td width="30%"><b>Laura Ferris</b></td>
+                                                    <td width="80%">Associate Professor of Dermatology at University of Pittsburg.</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td width="30%"><b>Tracy Petrie</b></td>
+                                                    <td width="80%">Product Manager at OHSU.</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td width="30%"><b>Gabriela Oana Cula:</b></td>
+                                                    <td width="80%">Research Associate Director at Johnson and Johnson.</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!--
                                     <ul>
                                         <li><b>Art Papier,</b> CEO of Visual Dx. </li>
                                         <li><b>Laura Ferris,</b> Associate Professor of Dermatology at University of Pittsburg. </li>
                                         <li><b>Tracy Petrie,</b> Product Manager at OHSU. </li>
                                         <li><b>Gabriela Oana Cula,</b> Research Associate Director at Johnson and Johnson. </li>
                                     </ul>
+                                     -->
 								</div>
 							</section>
 
@@ -86,13 +114,40 @@
 								<div class="container">
 									<h3>Important Dates</h3>
 									<p>This workshop will feature presentations from both submitted papers and challenge participants.</p>
-									
-                                    <ul>
+
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td width="30%"><b>April 2nd, 2018:</b></td>
+                                                    <td width="80%">Challenge Training Data Release</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td width="30%"><b>June 11th, 2018:</b></td>
+                                                    <td width="80%">Workshop Paper Submission Deadline</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td width="30%"><b>July 9th, 2018:</b></td>
+                                                    <td width="80%">Challenge Validation and Test Data Release</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td width="30%"><b>July 27th, 2018:</b></td>
+                                                    <td width="80%">Challenge Submission Deadline</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    
+                                    <!-- <ul>
                                         <li><b> April 2nd, 2018:</b> Challenge Training Data Release</li>
                                         <li><b> June 11th, 2018:</b> Workshop Paper Submission Deadline</li>
                                         <li><b> July 9th, 2018:</b> Challenge Validation and Test Data Release</li>
                                         <li><b> July 27th, 2018:</b> Challenge Submission Deadline</li>
-                                    </ul>
+                                    </ul> -->
                                     
                                     <!-- <ul class="feature-icons">
 										<li class="fa-code">Write all the code</li>
@@ -109,26 +164,28 @@
 							<section id="three">
 								<div class="container">
 									<h3>ISIC Challenge</h3>
-									<p>The challenge hosted in conjunction with this workshop will be the newest instance of the largest challenge in the community for automated skin cancer recognition, hosted by the International Skin Imaging Collaboration (ISIC), featuring additional data and annotation tasks. Skin cancer is the most common form of cancer, according to the American Cancer Society. While skin cancer is amenable to early detection by direct inspection, visual similarity with benign lesions makes the task difficult. The goal of the challenge is to develop methods for segmentation, clinical attribute detection, and disease classification in dermoscopic images</p>
-									<div class="features">
+                                    <p>Skin cancer is the most common form of cancer, according to the American Cancer Society. While skin cancer is amenable to early detection by direct inspection, visual similarity with benign lesions makes the task difficult. The challenge hosted in conjunction with this workshop will be the newest instance of the largest challenge in the community for automated skin cancer recognition, featuring additional data and annotation tasks. The goal of the challenge is to develop methods for segmentation, clinical attribute detection, and disease classification in dermoscopic images.
+                                    </p>
+									
+                                    <div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/task1.png" alt="" /></a>
 											<div class="inner">
-                                                <h4>Part 1: Lesion Segmentation</h4>
-												<p>Segment lesions from dermoscopic images.</p>
+                                                <h4><a href="https://challenge2018.isic-archive.com">Part 1: Lesion Segmentation</a></h4>
+												<p>Predict lesion segmentation masks from dermoscopic images. 2600 images for training, 100 for validation, 1000 for test.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/task2.png" alt="" /></a>
 											<div class="inner">
-                                                <h4>Part 2: Lesion Attribute Detection</h4>
-												<p>Classify and localize clinical dermoscopic patterns.</p>
+                                                <h4><a href="https://challenge2018.isic-archive.com">Part 2: Lesion Attribute Detection</a></h4>
+												<p>Classify and localize clinical dermoscopic attribute patterns as binary masks. Categories include "network", "negative network", "streaks", "milia-like cysts", "dots and globules". 2600 images for training, 100 for validation, 1000 for test.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/task3.png" alt="" /></a>
 											<div class="inner">
-                                                <h4>Part 3: Disease Classification</h4>
+                                                <h4><a href="https://challenge2018.isic-archive.com">Part 3: Disease Classification</a></h4>
 												<p>Determine disease category for images</p>
 											</div>
 										</article>
@@ -159,27 +216,26 @@
 							<section id="four">
 								<div class="container">
 									<h3>Organizers</h3>
-                                    <p>Workshop and Challenge Organizers:</p>
+                                    
+                                    <h4><b>Workshop and Challenge:</b></h4>
                                     <ul>
-                                        <li>M. Emre Celebi Ph.D. (University of Central Arkansas, Arkansas, USA)</li>
-                                        <li>Noel C. F. Codella Ph.D. (IBM Research, New York, USA)</li>
-                                        <li>Kristin Dana Ph.D. (Rutgers University, New Jersey, USA)</li>
-                                        <li>David Gutman M.D. (Emory University, Georgia, USA)</li>
-                                        <li>Allan Halpern M.D. (Memorial Sloan Kettering Cancer Center, New York, USA)</li>
-                                        <li>Brian Helba (Kitware, New York, USA)</li>
-                                        <li>Harald Kittler M.D. (Medical University of Vienna)</li>
-                                        <li>Philipp Tschandl, M.D. Ph.D. (Medical University of Vienna, Vienna, Austria)</li>
-                                        
-                                    </ul>
-                                        
+                                        <li><a href="https://uca.edu/computerscience/facultystaff/e-emre-celebi/"><b>M. Emre Celebi Ph.D.</b></a> (University of Central Arkansas, Arkansas, USA)</li>
+                                        <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-nccodell"><b>Noel C. F. Codella Ph.D.</b></a> (IBM Research, New York, USA)</li>
+                                        <li><a href="www.ece.rutgers.edu/~kdana/"><b>Kristin Dana Ph.D.</b></a> (Rutgers University, New Jersey, USA)</li>
+                                        <li><a href="https://winshipcancer.emory.edu/bios/faculty/gutman-david.html"><b>David Gutman M.D.</b></a> (Emory University, Georgia, USA)</li>
+                                        <li><a href="https://www.mskcc.org/cancer-care/doctors/allan-halpern"><b>Allan Halpern M.D.</b></a> (Memorial Sloan Kettering Cancer Center, New York, USA)</li>
+                                        <li><a href="https://www.kitware.com/brian-helba/"><b>Brian Helba</b></a> (Kitware, New York, USA)</li>
+                                        <li><a href="https://www.medunigraz.at/en/dermoscopy/faculty/kittler-harald/"><b>Harald Kittler M.D.</b><a/> (Medical University of Vienna)</li>
+                                        <li><a href="https://www.meduniwien.ac.at/web/en/research/researcher-profiles/researcher-profiles/detail/?res_id=23"><b>Philipp Tschandl, M.D. Ph.D.</b></a> (Medical University of Vienna, Vienna, Austria)</li>
                                         
                                     </ul>
                                     
-                                    <p>Steering Committee:</p>
+                    
+                                    <h4><b>Steering Committee:</b></h4>
                                     <ul>
-                                        <li>Rogerio Feris Ph.D. (IBM Research, New York, USA)</li>
-                                        <li>Anthony Hoogs Ph.D. (Kitware, New York, USA)</li>
-                                        <li>John R. Smith Ph.D. (IBM Research, New York, USA)</li>
+                                        <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-rsferis"><b>Rogerio Feris Ph.D.</b></a> (IBM Research, New York, USA)</li>
+                                        <li><a href="https://www.kitware.com/anthony-hoogs/"><b>Anthony Hoogs Ph.D.</b></a> (Kitware, New York, USA)</li>
+                                        <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-jsmith"><b>John R. Smith Ph.D.</b></a> (IBM Research, New York, USA)</li>
                                     </ul>
                                     
 
@@ -539,7 +595,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; 2018, International Skin Imaging Collaboration (ISIC). All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
