@@ -1,748 +1,352 @@
 <!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>ISIC Skin Image Anaylsis Workshop and Challenge @ MICCAI 2018</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+<head>
+    <title>ISIC Skin Image Anaylsis Workshop and Challenge @ MICCAI 2018</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+<body>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">ISIC Skin Image Analysis Workshop </a></h1>
-					<p>Hosted by the International Skin Imaging Collaboration (ISIC)</p> <p>@ MICCAI 2018</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">Workshop</a></li>
-                        <li><a href="#speakers">Speakers</a></li>
-						<li><a href="#two">Important Dates</a></li>
-						<li><a href="#paper">Paper Submission</a></li>
-						<li><a href="#challenge">Challenge</a></li>
-                        <li><a href="#schedule">Program Schedule</a></li>
-						<li><a href="#four">Organizers</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						--><li><a href="mailto:miccai2018@isic-archive.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+<section id="header">
+    <header>
+        <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+        <h1 id="logo"><a href="#">ISIC Skin Image Analysis Workshop</a></h1>
+        <p>Hosted by the International Skin Imaging Collaboration (ISIC)</p>
+        <p>@ MICCAI 2018</p>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#workshop" class="active">Workshop</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#dates">Important Dates</a></li>
+            <li><a href="#paper">Paper Submission</a></li>
+            <li><a href="#challenge">Challenge</a></li>
+            <li><a href="#schedule">Program Schedule</a></li>
+            <li><a href="#organizers">Organizers</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <ul class="icons">
+            <!--
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+            -->
+            <li><a href="mailto:miccai2018@isic-archive.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+    </footer>
+</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<div id="wrapper">
+    <div id="main">
+        <section id="one">
+            <div id="workshop" class="container">
+                <header class="major">
+                    <h3>ISIC Skin Image Analysis Workshop and Challenge @ MICCAI 2018</h3>
+                    <p>Hosted by the International Skin Imaging Collaboration (ISIC)</p>
+                </header>
+                <p><b style="color: red;">NEW: <a href="#schedule">Program Schedule</a> now posted.</b></p>
 
-				<!-- Main -->
-					<div id="main">
+                <p>Skin is the largest organ of the human body, and is the first area of assessment performed by any clinical staff when a patient is seen, as it delivers numerous insights into a patient’s underlying health. For example, cardiac function, liver function, immune function, and physical injuries can be assessed by examining the skin. In addition, dermatologic complaints are also among the most prevalent in primary care [1].  Images of the skin are the most easily captured form of medical image in healthcare, and the domain shares qualities to other standard computer vision datasets, serving as a natural bridge between standard computer vision tasks and medical applications. </p>
 
-						<!-- One -->
-							<section id="one">
-								<div class="container">
-									<header class="major">
-										<h3>ISIC Skin Image Analysis Workshop and Challenge @ MICCAI 2018</h3>
-										<p>Hosted by the International Skin Imaging Collaboration (ISIC)</p>
-									</header>
-									<p> <b><font color="red">NEW: <a href="#schedule">Program Schedule</a> now posted.</font></b> </p>
-									
-                                    <p>Skin is the largest organ of the human body, and is the first area of assessment performed by any clinical staff when a patient is seen, as it delivers numerous insights into a patient’s underlying health. For example, cardiac function, liver function, immune function, and physical injuries can be assessed by examining the skin. In addition, dermatologic complaints are also among the most prevalent in primary care [1].  Images of the skin are the most easily captured form of medical image in healthcare, and the domain shares qualities to other standard computer vision datasets, serving as a natural bridge between standard computer vision tasks and medical applications. </p>
-                                    
-                                    <p>This workshop will serve as a venue to facilitate advancements and knowledge dissemination in the field of skin image analysis, as well as host a melanoma detection challenge, raising awareness and interest for these socially valuable tasks. Invited speakers include (confirmed) major influencers in computer vision and skin imaging, top ranked participants of the hosted challenge, and accepted papers on skin image analysis.</p> 
-                                    
-                                    
-                                    <h4>Topics of manuscript submissions may include:</h4>
-                                    <ul>
-					<li>Deep Learning for Dermatology</li>
-					<li>Computer Vision for Dermatology</li>
-                                        <li>Dermoscopic Image Analysis</li>
-                                        <li>Consumer-Grade Photograph Analysis</li>
-                                        <li>Video Analysis</li> 
-                                        <li>Video or Image Processing</li>
-                                        <li>Total-Body Photography</li>
-                                        <li>Confocal Microscopy Analysis</li>
-                                        <li>Optical Coherence Tomography (OCT) Analysis</li>
-                                        <li>Skin Histopathological Image Analysis</li>
-                                        <li>Other Imaging Modalities Related to Skin</li>
-                                        <li>Interpretable or Explainable AI Related to Skin Image Analysis</li>
-                                    </ul>
-                                    
-                                    
-                                    <p> The workshop will give out a "Best Paper" award (with $2,500 prize), as well as awards and prizes to winners of the associated <a href="#challenge">challenge</a>. 
-                                    </p>
-									
-				    <p><b><a href="https://cmt3.research.microsoft.com/ISICSIAWC2018">Paper Submissions System</a></b> (<a href="http://www.miccai2018.org/en/KEY-INFORMATION.html">Author Information and Template</a>)</p>
-                                    
-                                    <p> [1] Lowell BA, et al. “Dermatology in primary care: Prevalence and patient disposition” In: Journal of the American Academy of Dermatology (JAAD), vol. 45, no. 2. 2001.</p>
-								</div>
-							</section>
+                <p>This workshop will serve as a venue to facilitate advancements and knowledge dissemination in the field of skin image analysis, as well as host a melanoma detection challenge, raising awareness and interest for these socially valuable tasks. Invited speakers include (confirmed) major influencers in computer vision and skin imaging, top ranked participants of the hosted challenge, and accepted papers on skin image analysis.</p>
 
-						<!-- Two -->
-							<section id="speakers">
-								<div class="container">
-									<h3>Invited Speakers</h3>
-                                    <p>This workshop will feature several prominent names in the field of skin image analysis, including:</p>
-                                    
-                                    <div class="table-wrapper">
-                                        <table>
-                                            <tbody>
-						<tr>
-                                                    <td width="30%"><b>Olivier Gevaert</b></td>
-                                                    <td width="80%">Assistant Professor of Medicine and of Biomedical Data Science, Stanford Center for Biomedical Informatics Research (BMIR), Stanford University.</td>
-                                                </tr>
-						<tr>
-                                                    <td width="30%"><b>Josep Malvehy</b></td>
-                                                    <td width="80%">Dermatology Department, Hospital Clínic of Barcelona, University of Barcelona, Spain</td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="30%"><b>Rafael Garcia</b></td>
-                                                    <td width="80%">Computer Vision and Robotics Institute, University of Girona, Spain</td>
-                                                </tr>
-                                              
-                                                <tr>
-                                                    <td width="30%"><b>Tracy Petrie</b></td>
-                                                    <td width="80%">Product Manager at OHSU.</td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <td width="30%"><b>Gabriela Oana Cula</b></td>
-                                                    <td width="80%">Research Associate Director at Johnson and Johnson.</td>
-                                                </tr>
-						    
-						    
-                                                
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    
-								</div>
-							</section>
+                <h4>Topics of manuscript submissions may include:</h4>
+                <ul>
+                    <li>Deep Learning for Dermatology</li>
+                    <li>Computer Vision for Dermatology</li>
+                    <li>Dermoscopic Image Analysis</li>
+                    <li>Consumer-Grade Photograph Analysis</li>
+                    <li>Video Analysis</li>
+                    <li>Video or Image Processing</li>
+                    <li>Total-Body Photography</li>
+                    <li>Confocal Microscopy Analysis</li>
+                    <li>Optical Coherence Tomography (OCT) Analysis</li>
+                    <li>Skin Histopathological Image Analysis</li>
+                    <li>Other Imaging Modalities Related to Skin</li>
+                    <li>Interpretable or Explainable AI Related to Skin Image Analysis</li>
+                </ul>
 
+                <p> The workshop will give out a "Best Paper" award (with $2,500 prize), as well as awards and prizes to winners of the associated <a href="#challenge">challenge</a>.
+                </p>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Important Dates</h3>
-									<p>This workshop will feature presentations from both submitted papers and challenge participants.</p>
+                <p>
+                    <b><a target="_blank" href="https://cmt3.research.microsoft.com/ISICSIAWC2018">Paper Submissions System</a></b>
+                    (<a target="_blank" href="http://www.miccai2018.org/en/KEY-INFORMATION.html">Author Information and Template</a>)
+                </p>
 
-                                    <div class="table-wrapper">
-                                        <table>
-                                            <tbody>
-                                                <tr>
-                                                    <td width="30%"><b>April 2nd, 2018:</b></td>
-                                                    <td width="80%">Challenge Training Data Release</td>
-                                                </tr>
-                                                
-                                                <tr>
-						    <td width="30%"><b>June 30th, 2018:</b></td>
-                                                    <td width="80%">Workshop Paper Submission Deadline: 11:59 PM EDT</td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <td width="30%"><b>July 9th, 2018:</b></td>
-                                                    <td width="80%">Challenge Validation and Test Data Release</td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <td width="30%"><b>July 27th, 2018:</b></td>
-                                                    <td width="80%">Challenge Submission Deadline</td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="30%"><b>Sept 20th, 2018:</b></td>
-                                                    <td width="80%">Workshop day, Room Albeniz</td>
-                                                </tr>
-                                                
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    
-																							</div>
-							</section>
-									
-						
-							<section id="paper">
-								<div class="container">
-									<h3>Paper Submission</h3>
-									<p>For paper submissions, MICCAI manuscript rules are followed: 8 pages, double-blind review, supplemental material optional.</p>
-									
-									<p><b><a href="https://cmt3.research.microsoft.com/ISICSIAWC2018">Paper Submissions System</a></b> (<a href="http://www.miccai2018.org/en/KEY-INFORMATION.html">Author Information and Template</a>). </p>
-								</div>
-							</section>
-						    
-				    
-                                    
-                                    
-                                    
-                                    <!-- <ul class="feature-icons">
-										<li class="fa-code">Write all the code</li>
-										<li class="fa-cubes">Stack small boxes</li>
-										<li class="fa-book">Read books and stuff</li>
-										<li class="fa-coffee">Drink much coffee</li>
-										<li class="fa-bolt">Lightning bolt</li>
-										<li class="fa-users">Shadow clone technique</li>
-									</ul> -->
+                <p> [1] Lowell BA, et al. “Dermatology in primary care: Prevalence and patient disposition" In: Journal of the American Academy of Dermatology (JAAD), vol. 45, no. 2. 2001.</p>
+            </div>
+        </section>
 
+        <section id="speakers">
+            <div class="container">
+                <h3>Invited Speakers</h3>
+                <p>This workshop will feature several prominent names in the field of skin image analysis, including:</p>
 
-						<!-- Three -->
-							<section id="challenge">
-								<div class="container">
-									<h3><a href="https://challenge2018.isic-archive.com/">ISIC Challenge</a></h3>
-                                    <p>Skin cancer is the most common form of cancer, according to the American Cancer Society. While skin cancer is amenable to early detection by direct inspection, visual similarity with benign lesions makes the task difficult. The challenge hosted in conjunction with this workshop will be the newest instance of the largest challenge in the community for automated skin cancer recognition, hosted by the <a href="https://isdis.net/">International Skin Imaging Collaboration (ISIC)</a>. The goal of the challenge is to develop methods for segmentation, clinical attribute detection, and disease classification in dermoscopic images.
-                                    </p>
-                                    
-                                    <p> In conjunction with the machine learning challenge, we will conduct a large reader study focused on disease diagnosis, orchestrated by the <a href="https://dermoscopy-ids.org">International Dermoscopy Society (IDS)</a>. The study is anticipated to provide human diagnostic accuracy data for hundreds of images from the test set, collected from hundreds of clinician participants worldwide. The data will be made available, stratified by years of clinical experience and geography. This data will serve as a baseline to compare the diagnostic performance of machine learning algorithms to clinical experts of varying skill. </p>
-									
-									
-                                    <p>The <a href="https://challenge2018.isic-archive.com/">ISIC 2018 Challenge</a> incorporates three independent sub-tasks:</p>
-                                    <div class="features">
-                                        <article></article>
-										<article>
-											<a href="https://challenge2018.isic-archive.com/task1/" class="image"><img src="images/task1.png" alt="" /></a>
-											<div class="inner">
-                                                <h4><a href="https://challenge2018.isic-archive.com/task1/">Task 1: Lesion Boundary Segmentation</a></h4>
-												<p>Predict lesion segmentation masks from dermoscopic images. Approximately 2600 images for training, 100 for validation, 1000 for test. $2,500 prize for top performing algorithm.</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://challenge2018.isic-archive.com/task2/" class="image"><img src="images/task2.png" alt="" /></a>
-											<div class="inner">
-                                                <h4><a href="https://challenge2018.isic-archive.com/task2/">Task 2: Lesion Attribute Detection</a></h4>
-												<p>Classify and localize clinical dermoscopic attribute patterns as binary masks. Categories include "network", "negative network", "streaks", "milia-like cysts", "dots and globules". Approximately 2600 images for training, 100 for validation, 1000 for test. $2,500 prize for top performing algorithm.</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://challenge2018.isic-archive.com/task3/" class="image"><img src="images/task3.png" alt="" /></a>
-											<div class="inner">
-                                                <h4><a href="https://challenge2018.isic-archive.com/task3/">Task 3: Disease Classification</a></h4>
-												<p>Classify disease categories for dermoscopic images. Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test. $2,500 prize for top performing algorithm. </p>
-											</div>
-										</article>
-                                        <article></article>
-									</div>
-                                    <p>Full information, including data download links, is available at the <b><a href="https://challenge2018.isic-archive.com/">Challenge Website</a></b>.</p>
-                                    
-                                    
- 
-                                    
-								</div>
-							</section>
+                <div class="table-wrapper">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td width="30%"><b>Olivier Gevaert</b></td>
+                            <td width="80%">Assistant Professor of Medicine and of Biomedical Data Science, Stanford Center for Biomedical Informatics Research (BMIR), Stanford University.</td>
+                        </tr>
+                        <tr>
+                            <td width="30%"><b>Josep Malvehy</b></td>
+                            <td width="80%">Dermatology Department, Hospital Clínic of Barcelona, University of Barcelona, Spain</td>
+                        </tr>
+                        <tr>
+                            <td width="30%"><b>Rafael Garcia</b></td>
+                            <td width="80%">Computer Vision and Robotics Institute, University of Girona, Spain</td>
+                        </tr>
 
-						<!-- Two -->
-							<section id="schedule">
-								<div class="container">
-									<h3>Program Schedule</h3>
-									<p>Tentative outline of the workshop schedule:</p>
-				
-									
-									<div class="table-wrapper">
-                                        <table>
-                                            <tbody>
-                                                <tr>
-                                                    <td width="20%"><b>9:00 AM:</b></td>
-                                                    <td width="80%">Opening Remarks</td>
-                                                </tr>
-                                                
-                                                <tr>
-						    <td width="20%"><b>9:10 AM:</b></td>
-                                                    <td width="80%">Overview of Challenge Tasks, Evaluation Protocol, and Top Results 
-</td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <td width="20%"><b>9:30 AM:</b></td>
-                                                    <td width="80%">Challenge Participants Oral Seminar Session<br>6 participant teams, 15 minutes each</td>
-                                                </tr>
-                                                
-                                                <tr>
-                                                    <td width="20%"><b>11:00 AM:</b></td>
-                                                    <td width="80%">Invited Talk #1: Josep Malvehy / Rafael Garcia  </td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="20%"><b>11:30 AM:</b></td>
-                                                    <td width="80%">Invited Talk #2: Olivier Gevaert</td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="20%"><b>12:00 PM:</b></td>
-                                                    <td width="80%">Lunch Break</td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="20%"><b>1:00 PM:</b></td>
-                                                    <td width="80%">Invited Talk #3: Tracy Petrie</td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="20%"><b>1:30 PM:</b></td>
-                                                    <td width="80%">Invited Talk #4: Gabriela Oana Cula</td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="20%"><b>2:00 PM:</b></td>
-                                                    <td width="80%">Paper Submissions Oral Seminar Session, Part 1<br>
-							    <ul>
-								    <li>2:00 PM: “Skin Lesion Synthesis with Generative Adversarial Networks” -- Alceu Bissoto, et al.</li>    
-								    <li>2:15 PM: “Generating Highly Realistic Images of Skin Lesions with GANs”  -- Christoph Baur, et al.</li>
-								    <li>2:30 PM: “Data Augmentation for Skin Lesion Analysis” -- Fabio Perez, et al</li>
-								    <li>2:45 PM: “Deeply Supervised Rotation Equivariant Network for Lesion Segmentation in Dermoscopy Images” -- Xiaomeng Li, et al. </li>
-								    <li>3:00 PM: "Skin Image Analysis for Erythema Migrans Detection and Automated Lyme Disease Referral” -- P. Burlina, et al. </li>
-							    <ul/>
-						    </td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="20%"><b>3:15 PM:</b></td>
-                                                    <td width="80%">Break</td>
-                                                </tr>
-						    
-						    
-						<tr>
-                                                    <td width="20%"><b>3:30 PM:</b></td>
-                                                    <td width="80%">Paper Submissions Oral Seminar Session, Part 2<br>
-							    <ul>
-								    <li>3:30 PM: “Severity assessment of psoriatic plaques using deep CNN based Ordinal classification” -- Anabik Pal, et al.</li>    
-								    <li>3:45 PM: “A Hyperspectral Dermoscopy Dataset for Melanoma Detection” -- Yanyang Gu, et al.</li>
-								    <li>4:00 PM: “A Deep Residual Architecture for Skin Lesion Segmentation” -- Venkatesh G M, et al.</li>
-								    <li>4:15 PM: “A Multi-task Framework for Skin Lesion Detection and Segmentation” -- Sulaiman Vesal, et al.</li>
-								    <li>4:30 PM: “A Structure-aware Convolutional Neural Network for Skin Lesion Classification” -- Kevin Thandiackal, et al.</li>
-							    <ul/>
-						    </td>
-                                                </tr>
-						    
-						<tr>
-                                                    <td width="20%"><b>4:45 PM:</b></td>
-                                                    <td width="80%">Awards / Closing Remarks / Future Plans / Discussion </td>
-                                                </tr>
-                                                
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    
-                                   
-								</div>
-							</section>
+                        <tr>
+                            <td width="30%"><b>Tracy Petrie</b></td>
+                            <td width="80%">Product Manager at OHSU.</td>
+                        </tr>
 
+                        <tr>
+                            <td width="30%"><b>Gabriela Oana Cula</b></td>
+                            <td width="80%">Research Associate Director at Johnson and Johnson.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Organizers</h3>
-									
-				    <h4><b>Sponsors:</b></h4>
-					<img src="images/logo-canfield-site.png"> <br> <br> 
-                                    
-                                    <h4><b>Workshop and Challenge:</b></h4>
-                                    <ul>
-                                        <li><a href="https://uca.edu/computerscience/facultystaff/e-emre-celebi/"><b>M. Emre Celebi Ph.D.</b></a> (University of Central Arkansas, Arkansas, USA)</li>
-                                        <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-nccodell"><b>Noel C. F. Codella Ph.D.</b></a> (IBM Research, New York, USA)  <a href="https://twitter.com/NoelCodella" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                        <li><a href="http://www.ece.rutgers.edu/~kdana/"><b>Kristin Dana Ph.D.</b></a> (Rutgers University, New Jersey, USA)</li>
-                                        <li><a href="https://winshipcancer.emory.edu/bios/faculty/gutman-david.html"><b>David Gutman M.D.</b></a> (Emory University, Georgia, USA)</li>
-                                        <li><a href="https://www.mskcc.org/cancer-care/doctors/allan-halpern"><b>Allan Halpern M.D.</b></a> (Memorial Sloan Kettering Cancer Center, New York, USA)</li>
-                                        <li><a href="https://www.kitware.com/brian-helba/"><b>Brian Helba</b></a> (Kitware, New York, USA)</li>
-                                        <li><a href="https://www.medunigraz.at/en/dermoscopy/faculty/kittler-harald/"><b>Harald Kittler M.D.</b></a> (Medical University of Vienna)</li>
-                                        <li><a href="https://www.meduniwien.ac.at/web/en/research/researcher-profiles/researcher-profiles/detail/?res_id=23"><b>Philipp Tschandl, M.D. Ph.D.</b></a> (Medical University of Vienna, Vienna, Austria)</li>
-                                        
-                                    </ul>
-                                    
-                    
-                                    <h4><b>Steering Committee:</b></h4>
-                                    <ul>
-                                        <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-rsferis"><b>Rogerio Feris Ph.D.</b></a> (IBM Research, New York, USA)</li>
-                                        <li><a href="https://www.kitware.com/anthony-hoogs/"><b>Anthony Hoogs Ph.D.</b></a> (Kitware, New York, USA)</li>
-                                        <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-jsmith"><b>John R. Smith Ph.D.</b></a> (IBM Research, New York, USA)</li>
-                                    </ul>
-                                    
-									
-									<h4>Contact E-Mail:</h4>
-									<ul>
-										<li><a href="mailto:miccai2018@isic-archive.com">miccai2018@isic-archive.com</a></li>
-									</ul>
-								</div>
-							</section>
+        <section id="dates">
+            <div class="container">
+                <h3>Important Dates</h3>
+                <p>This workshop will feature presentations from both submitted papers and challenge participants.</p>
 
-						<!-- Five -->
-						<!--
-							<section id="five">
-								<div class="container">
-									<h3>Elements</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td width="30%"><b>April 2nd, 2018:</b></td>
+                            <td width="80%">Challenge Training Data Release</td>
+                        </tr>
 
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
+                        <tr>
+                            <td width="30%"><b>June 30th, 2018:</b></td>
+                            <td width="80%">Workshop Paper Submission Deadline: 11:59 PM EDT</td>
+                        </tr>
 
-	while (!deck.isInOrder()) {
-	    print 'Iteration ' + i;
-	    deck.shuffle();
-	    i++;
-	}
+                        <tr>
+                            <td width="30%"><b>July 9th, 2018:</b></td>
+                            <td width="80%">Challenge Validation and Test Data Release</td>
+                        </tr>
 
-	print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
+                        <tr>
+                            <td width="30%"><b>July 27th, 2018:</b></td>
+                            <td width="80%">Challenge Submission Deadline</td>
+                        </tr>
 
-									<section>
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="6u 12u(xsmall)">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="6u 12u(xsmall)">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button special">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button special small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="3u 6u(medium) 12u$(xsmall)">
-												<ul class="actions vertical">
-													<li><a href="#" class="button special">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u$(medium) 12u$(xsmall)">
-												<ul class="actions vertical small">
-													<li><a href="#" class="button special small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u(medium) 12u$(xsmall)">
-												<ul class="actions vertical">
-													<li><a href="#" class="button special fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u$(medium) 12u$(xsmall)">
-												<ul class="actions vertical small">
-													<li><a href="#" class="button special small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
+                        <tr>
+                            <td width="30%"><b>Sept 20th, 2018:</b></td>
+                            <td width="80%">Workshop day, Room Albeniz</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-									<section>
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
+        <section id="paper">
+            <div class="container">
+                <h3>Paper Submission</h3>
+                <p>For paper submissions, MICCAI manuscript rules are followed: 8 pages, double-blind review, supplemental material optional.</p>
 
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
+                <p>
+                    <b><a target="_blank" href="https://cmt3.research.microsoft.com/ISICSIAWC2018">Paper Submissions System</a></b>
+                    (<a target="_blank" href="http://www.miccai2018.org/en/KEY-INFORMATION.html">Author Information and Template</a>).
+                </p>
+            </div>
+        </section>
 
-									<section>
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button special">Special</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button special big">Big</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button special fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button special fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button special icon fa-download">Icon</a></li>
-											<li><a href="#" class="button icon fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button special disabled">Special</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
+        <section id="challenge">
+            <div class="container">
+                <h3><a target="_blank" href="https://challenge2018.isic-archive.com/">ISIC Challenge</a></h3>
+                <p>Skin cancer is the most common form of cancer, according to the American Cancer Society. While skin cancer is amenable to early detection by direct inspection, visual similarity with benign lesions makes the task difficult. The challenge hosted in conjunction with this workshop will be the newest instance of the largest challenge in the community for automated skin cancer recognition, hosted by the <a target="_blank" href="https://isdis.net/">International Skin Imaging Collaboration (ISIC)</a>. The goal of the challenge is to develop methods for segmentation, clinical attribute detection, and disease classification in dermoscopic images.</p>
 
-									<section>
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row uniform">
-												<div class="6u 12u(xsmall)">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="6u 12u(xsmall)">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<div class="select-wrapper">
-														<select name="demo-category" id="demo-category">
-															<option value="">- Category -</option>
-															<option value="1">Manufacturing</option>
-															<option value="1">Shipping</option>
-															<option value="1">Administration</option>
-															<option value="1">Human Resources</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="6u 12u(medium)">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="6u 12u(medium)">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
+                <p> In conjunction with the machine learning challenge, we will conduct a large reader study focused on disease diagnosis, orchestrated by the <a target="_blank" href="https://dermoscopy-ids.org">International Dermoscopy Society (IDS)</a>. The study is anticipated to provide human diagnostic accuracy data for hundreds of images from the test set, collected from hundreds of clinician participants worldwide. The data will be made available, stratified by years of clinical experience and geography. This data will serve as a baseline to compare the diagnostic performance of machine learning algorithms to clinical experts of varying skill. </p>
 
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-										<div class="box alt">
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-											</div>
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-											</div>
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
+                <p>The <a target="_blank" href="https://challenge2018.isic-archive.com/">ISIC 2018 Challenge</a> incorporates three independent sub-tasks:</p>
+                <div class="features">
+                    <article></article>
+                    <article>
+                        <a target="_blank" href="https://challenge2018.isic-archive.com/task1/" class="image"><img src="images/task1.png" alt="" /></a>
+                        <div class="inner">
+                            <h4><a target="_blank" href="https://challenge2018.isic-archive.com/task1/">Task 1: Lesion Boundary Segmentation</a></h4>
+                            <p>Predict lesion segmentation masks from dermoscopic images. Approximately 2600 images for training, 100 for validation, 1000 for test. $2,500 prize for top performing algorithm.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <a target="_blank" href="https://challenge2018.isic-archive.com/task2/" class="image"><img src="images/task2.png" alt="" /></a>
+                        <div class="inner">
+                            <h4><a target="_blank" href="https://challenge2018.isic-archive.com/task2/">Task 2: Lesion Attribute Detection</a></h4>
+                            <p>Classify and localize clinical dermoscopic attribute patterns as binary masks. Categories include "network", "negative network", "streaks", "milia-like cysts", "dots and globules". Approximately 2600 images for training, 100 for validation, 1000 for test. $2,500 prize for top performing algorithm.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <a target="_blank" href="https://challenge2018.isic-archive.com/task3/" class="image"><img src="images/task3.png" alt="" /></a>
+                        <div class="inner">
+                            <h4><a target="_blank" href="https://challenge2018.isic-archive.com/task3/">Task 3: Disease Classification</a></h4>
+                            <p>Classify disease categories for dermoscopic images. Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test. $2,500 prize for top performing algorithm. </p>
+                        </div>
+                    </article>
+                    <article></article>
+                </div>
+                <p>Full information, including data download links, is available at the <b><a target="_blank" href="https://challenge2018.isic-archive.com/">Challenge Website</a></b>.</p>
+            </div>
+        </section>
 
-								</div>
-							</section>
-						-->
+        <section id="schedule">
+            <div class="container">
+                <h3>Program Schedule</h3>
+                <p>Tentative outline of the workshop schedule:</p>
+                <div class="table-wrapper">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td width="20%"><b>9:00 AM:</b></td>
+                            <td width="80%">Opening Remarks</td>
+                        </tr>
 
-					</div>
+                        <tr>
+                            <td width="20%"><b>9:10 AM:</b></td>
+                            <td width="80%">Overview of Challenge Tasks, Evaluation Protocol, and Top Results
+                            </td>
+                        </tr>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; 2018, International Skin Imaging Collaboration (ISIC). All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+                        <tr>
+                            <td width="20%"><b>9:30 AM:</b></td>
+                            <td width="80%">Challenge Participants Oral Seminar Session<br>6 participant teams, 15 minutes each</td>
+                        </tr>
 
-			</div>
+                        <tr>
+                            <td width="20%"><b>11:00 AM:</b></td>
+                            <td width="80%">Invited Talk #1: Josep Malvehy / Rafael Garcia</td>
+                        </tr>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+                        <tr>
+                            <td width="20%"><b>11:30 AM:</b></td>
+                            <td width="80%">Invited Talk #2: Olivier Gevaert</td>
+                        </tr>
 
-	</body>
+                        <tr>
+                            <td width="20%"><b>12:00 PM:</b></td>
+                            <td width="80%">Lunch Break</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%"><b>1:00 PM:</b></td>
+                            <td width="80%">Invited Talk #3: Tracy Petrie</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%"><b>1:30 PM:</b></td>
+                            <td width="80%">Invited Talk #4: Gabriela Oana Cula</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%"><b>2:00 PM:</b></td>
+                            <td width="80%">Paper Submissions Oral Seminar Session, Part 1<br>
+                                <ul>
+                                    <li>2:00 PM: “Skin Lesion Synthesis with Generative Adversarial Networks” -- Alceu Bissoto, et al.</li>
+                                    <li>2:15 PM: “Generating Highly Realistic Images of Skin Lesions with GANs”  -- Christoph Baur, et al.</li>
+                                    <li>2:30 PM: “Data Augmentation for Skin Lesion Analysis” -- Fabio Perez, et al</li>
+                                    <li>2:45 PM: “Deeply Supervised Rotation Equivariant Network for Lesion Segmentation in Dermoscopy Images” -- Xiaomeng Li, et al.</li>
+                                    <li>3:00 PM: "Skin Image Analysis for Erythema Migrans Detection and Automated Lyme Disease Referral” -- P. Burlina, et al.</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%"><b>3:15 PM:</b></td>
+                            <td width="80%">Break</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%"><b>3:30 PM:</b></td>
+                            <td width="80%">Paper Submissions Oral Seminar Session, Part 2<br>
+                                <ul>
+                                    <li>3:30 PM: “Severity assessment of psoriatic plaques using deep CNN based Ordinal classification” -- Anabik Pal, et al.</li>
+                                    <li>3:45 PM: “A Hyperspectral Dermoscopy Dataset for Melanoma Detection” -- Yanyang Gu, et al.</li>
+                                    <li>4:00 PM: “A Deep Residual Architecture for Skin Lesion Segmentation” -- Venkatesh G M, et al.</li>
+                                    <li>4:15 PM: “A Multi-task Framework for Skin Lesion Detection and Segmentation” -- Sulaiman Vesal, et al.</li>
+                                    <li>4:30 PM: “A Structure-aware Convolutional Neural Network for Skin Lesion Classification” -- Kevin Thandiackal, et al.</li>
+                                </ul>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%"><b>4:45 PM:</b></td>
+                            <td width="80%">Awards / Closing Remarks / Future Plans / Discussion </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="organizers">
+            <div class="container">
+                <h3>Organizers</h3>
+
+                <h4><b>Sponsors:</b></h4>
+                <img src="images/logo-canfield-site.png"><br><br>
+
+                <h4><b>Workshop and Challenge:</b></h4>
+                <ul>
+                    <li><a target="_blank" href="https://uca.edu/computerscience/facultystaff/e-emre-celebi/"><b>M. Emre Celebi Ph.D.</b></a> (University of Central Arkansas, Arkansas, USA)</li>
+                    <li><a target="_blank" href="https://researcher.watson.ibm.com/researcher/view.php?person=us-nccodell"><b>Noel C. F. Codella Ph.D.</b></a> (IBM Research, New York, USA)<a target="_blank" href="https://twitter.com/NoelCodella" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a target="_blank" href="http://www.ece.rutgers.edu/~kdana/"><b>Kristin Dana Ph.D.</b></a> (Rutgers University, New Jersey, USA)</li>
+                    <li><a target="_blank" href="https://winshipcancer.emory.edu/bios/faculty/gutman-david.html"><b>David Gutman M.D.</b></a> (Emory University, Georgia, USA)</li>
+                    <li><a target="_blank" href="https://www.mskcc.org/cancer-care/doctors/allan-halpern"><b>Allan Halpern M.D.</b></a> (Memorial Sloan Kettering Cancer Center, New York, USA)</li>
+                    <li><a target="_blank" href="https://www.kitware.com/brian-helba/"><b>Brian Helba</b></a> (Kitware, New York, USA)</li>
+                    <li><a target="_blank" href="https://www.medunigraz.at/en/dermoscopy/faculty/kittler-harald/"><b>Harald Kittler M.D.</b></a> (Medical University of Vienna)</li>
+                    <li><a target="_blank" href="https://www.meduniwien.ac.at/web/en/research/researcher-profiles/researcher-profiles/detail/?res_id=23"><b>Philipp Tschandl, M.D. Ph.D.</b></a> (Medical University of Vienna, Vienna, Austria)</li>
+                </ul>
+
+                <h4><b>Steering Committee:</b></h4>
+                <ul>
+                    <li><a target="_blank" href="https://researcher.watson.ibm.com/researcher/view.php?person=us-rsferis"><b>Rogerio Feris Ph.D.</b></a> (IBM Research, New York, USA)</li>
+                    <li><a target="_blank" href="https://www.kitware.com/anthony-hoogs/"><b>Anthony Hoogs Ph.D.</b></a> (Kitware, New York, USA)</li>
+                    <li><a target="_blank" href="https://researcher.watson.ibm.com/researcher/view.php?person=us-jsmith"><b>John R. Smith Ph.D.</b></a> (IBM Research, New York, USA)</li>
+                </ul>
+
+                <h4>Contact E-Mail:</h4>
+                <ul>
+                    <li><a href="mailto:miccai2018@isic-archive.com">miccai2018@isic-archive.com</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <section id="footer">
+        <div class="container">
+            <ul class="copyright">
+                <li>&copy; 2018, International Skin Imaging Collaboration (ISIC). All rights reserved.</li>
+                <li>Design: <a target="_blank" href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollzer.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+</body>
 </html>
